@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/ak879753
   gitUsername: ak879753
   gitBranch: main
+services:
+- serviceName: project.abhkexternal2ndsept.integrations:Daf1
+  packages:
+  - name: AbhkExternal2ndSeptProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1120
